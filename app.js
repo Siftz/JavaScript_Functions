@@ -20,8 +20,8 @@ printOdds(20);
 
 console.log("EXERCISE 2:\n==========\n");
 function checkAge(userName = "User", age = undefined) {
-    const aboveSixteen = 'Congrats ${userName}, you can drive!';
-    const belowSixteen = 'Sorry ${userName}, but you need to wait until you are 16.';
+    const aboveSixteen = `Congrats ${userName}, you can drive!`;
+    const belowSixteen = `Sorry ${userName}, but you need to wait until you are 16.`;
 
     if (age === undefined) {
         console.log("Please provide your age.");
